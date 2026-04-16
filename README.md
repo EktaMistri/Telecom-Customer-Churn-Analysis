@@ -30,32 +30,6 @@ A telecom company is losing customers at an alarming rate. The business knows *h
 
 ---
 
-## 📁 Repository Structure
-
-```
-customer-churn-analysis/
-│
-├── data/
-│   ├── raw/                        # Original dataset (CSV)
-│   └── cleaned/                    # Cleaned dataset after preprocessing
-│
-├── sql/
-│   ├── 01_data_cleaning.sql        # Deduplication, null handling, type fixes
-│   ├── 02_exploratory_analysis.sql # EDA queries — churn by segment
-│   └── 03_churn_metrics.sql        # Churn rate, ARPU, revenue at risk
-│
-├── powerbi/
-│   └── churn_analysis.pbix         # Full 3-page Power BI dashboard
-│
-├── screenshots/
-│   ├── page1_overview.png          # Churn Overview page
-│   ├── page2_drivers.png           # Churn Drivers page
-│   └── page3_recommendations.png  # Insights & Recommendations page
-│
-└── README.md
-```
-
----
 
 ## 🧹 Data Cleaning & Preparation
 
